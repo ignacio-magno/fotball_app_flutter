@@ -45,6 +45,10 @@ dependencies:
   # http
   http: ^0.13.3
 
+  mqtt_client: ^10.0.0
+  json_annotation: ^4.8.1
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -74,6 +78,7 @@ flutter:
 
   assets:
     - images/lake.jpg
+    - sampledata/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
